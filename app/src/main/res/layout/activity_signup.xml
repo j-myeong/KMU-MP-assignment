@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SignupActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="Welcome to Z2✨"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+                <TextView
+                    android:id="@+id/textViewSignId"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="ID" />
+
+                <EditText
+                    android:id="@+id/editTextSignId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <Button
+                    android:id="@+id/checkIdButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="확인" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="PW" />
+
+                <EditText
+                    android:id="@+id/editTextSignPw"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPassword" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="Name" />
+
+                <EditText
+                    android:id="@+id/editTextSignName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="Phone" />
+
+                <EditText
+                    android:id="@+id/editTextSignPhone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="phone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="Address" />
+
+                <EditText
+                    android:id="@+id/editTextSignAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+            </LinearLayout>
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non ex in magna imperdiet tempus quis et augue. Curabitur fringilla vel sem id congue. Sed vel porttitor felis. Aliquam vel diam eu est finibus ullamcorper ut eu ante. Proin posuere neque nec risus tempor, eget malesuada quam accumsan. Duis eu nibh facilisis, congue sapien nec, volutpat orci. Aliquam orci eros, consequat eu sem et, faucibus gravida nisi. Ut condimentum condimentum dictum. Sed egestas et tortor sit amet aliquet.  Curabitur pellentesque dui lectus, et auctor nulla mattis vel. Mauris sed risus efficitur, faucibus arcu sed, vulputate diam. Cras ex urna, placerat nec condimentum quis, iaculis sit amet lorem. Cras est arcu, facilisis sit amet risus ut, rhoncus placerat mauris. Nulla porta elit lorem, egestas sollicitudin risus fermentum ac. Quisque at velit nec purus rutrum placerat. Integer commodo ex id justo rutrum, tincidunt varius nisl pellentesque. Duis accumsan nunc nisi, id pretium ipsum tempus at. Cras ex elit, vestibulum vehicula justo sed, scelerisque egestas ante. Integer eu consectetur erat. Maecenas ut risus id eros laoreet ultricies in vitae eros. Aenean ac felis nulla. Cras a nulla eu orci consectetur pulvinar eu a lectus.  Nunc fringilla ligula et est tristique, in gravida magna viverra. Donec felis felis, lobortis a magna eu, pharetra semper ipsum. Phasellus vitae nisi sed justo ullamcorper tempor. Sed posuere fringilla augue, vel ornare turpis finibus et. In scelerisque leo libero, non finibus nisi egestas sit amet. Sed sed magna hendrerit, ornare sem vel, laoreet mauris. In id sem justo. Maecenas congue augue urna, ac posuere lorem fermentum sagittis. Proin vestibulum mauris at enim imperdiet, in tempor lacus sodales. Aliquam non egestas sapien, sit amet vehicula magna. Proin congue metus eget ex dictum, sit amet tincidunt orci mattis. In ut commodo diam, eu convallis ante. Duis venenatis placerat diam, id eleifend ante laoreet in. Maecenas eu ipsum quis nibh accumsan vestibulum. Phasellus nec mauris luctus, rutrum eros ac, lacinia libero. Nam efficitur vehicula tellus, id dictum sapien tincidunt eu.  Cras interdum tincidunt elit id placerat. Sed finibus, dui in malesuada vehicula, mi nisi cursus dolor, id facilisis elit eros nec augue. In suscipit luctus ante nec posuere. Maecenas ultrices facilisis massa, eget condimentum nulla iaculis vel. Nam quam turpis, mollis et justo sit amet, auctor tempus metus. Curabitur placerat ligula vitae neque aliquam, eget placerat leo mollis. Cras euismod, erat sit amet tempus viverra, justo justo lobortis tortor, gravida pulvinar sem odio id risus. Duis arcu purus, iaculis at interdum eget, tincidunt in urna.  Sed quam ante, tempor sit amet turpis non, bibendum pulvinar nunc. Aenean rutrum felis mi, ac laoreet nibh auctor et. Sed commodo ornare diam a tincidunt. Maecenas dapibus massa ac eleifend vulputate. Duis eget enim justo. Pellentesque nibh eros, sodales vitae pretium in, malesuada a nunc. Nullam pellentesque facilisis ultrices. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras tortor justo, congue eget tincidunt a, rhoncus quis massa. Etiam fermentum, sapien ac ornare dictum, diam leo tempus nunc, ac ullamcorper tortor ipsum ut urna. Vivamus efficitur libero a imperdiet congue. Nullam vitae venenatis mauris. Praesent blandit consequat ex, nec varius libero semper eu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed metus dolor, varius eget nisl nec, posuere ultricies lacus. Phasellus eu erat ac nisi rutrum lacinia." />
+
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+
+            <RadioGroup
+                android:id="@+id/radioSignAgree"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="right"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioAccept"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Accept" />
+
+                <RadioButton
+                    android:id="@+id/radioDecline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Decline" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/signButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="0"
+                android:text="가입하기" />
+
+            <Button
+                android:id="@+id/cancelButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="0"
+                android:backgroundTint="#ffffff"
+                android:text="돌아가기"
+                android:textColor="@color/black"
+                app:strokeColor="#ff0000"
+                app:strokeWidth="1dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
