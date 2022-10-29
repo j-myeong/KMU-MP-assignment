@@ -50,6 +50,7 @@
                     android:layout_weight="1"
                     android:ems="10"
                     android:inputType="textPersonName"
+                    android:maxLength="20"
                     tools:ignore="TouchTargetSizeCheck" />
 
                 <Button
@@ -80,7 +81,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="textPassword" />
+                    android:inputType="textPassword"
+                    android:maxLength="16" />
             </LinearLayout>
 
             <LinearLayout
@@ -103,7 +105,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="textPersonName" />
+                    android:inputType="textPersonName"
+                    android:maxLength="20" />
             </LinearLayout>
 
             <LinearLayout
@@ -126,7 +129,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="phone" />
+                    android:inputType="phone"
+                    android:maxLength="15" />
             </LinearLayout>
 
             <LinearLayout
@@ -149,7 +153,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="textPersonName" />
+                    android:inputType="textPersonName"
+                    android:maxLength="100" />
             </LinearLayout>
 
             <androidx.core.widget.NestedScrollView
